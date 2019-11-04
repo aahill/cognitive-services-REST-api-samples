@@ -10,11 +10,10 @@ import requests
 import os
 
 # Add your Bing Custom Search subscription key to your environment variables.
-# Your endpoint will have the form: https://<your-custom-subdomain>.cognitiveservices.azure.com/bingcustomsearch/v7.0
 subscriptionKey = os.environ['BING_CUSTOM_SEARCH_SUBSCRIPTION_KEY']
-endpoint = os.environ['BING_CUSTOM_SEARCH_ENDPOINT']
+endpoint = "https://api.cognitive.microsoft.com/bingcustomsearch"
 customConfigId = "your-custom-config-id" #you can also use "1"
-searchTerm = "microsoft"
+searchTerm = "Microsoft"
 # </importsAndVars>
 # <url>
 # Add your Bing Custom Search endpoint to your environment variables.

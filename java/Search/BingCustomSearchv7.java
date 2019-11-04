@@ -20,10 +20,8 @@ public class BingCustomSearchv7 {
 
     // <vars>
     // Add your Bing Custom Search endpoint and key to your environment variables.
-    // Your endpoint will have the form: 
-    //   https://<your-custom-subdomain>.cognitiveservices.azure.com/bingcustomsearch/v7.0
-    static String host = System.getenv("BING_CUSTOM_SEARCH_ENDPOINT");
     static String subscriptionKey = System.getenv("BING_CUSTOM_SEARCH_SUBSCRIPTION_KEY");
+    static String host = "https://api.cognitive.microsoft.com/bingcustomsearch";
     
     static String path = "/search";
     static String customConfigId = "YOUR-CUSTOM-CONFIG-ID"; //you can also use "1"

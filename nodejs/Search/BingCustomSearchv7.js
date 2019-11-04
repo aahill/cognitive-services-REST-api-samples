@@ -6,9 +6,9 @@ var request = require("request");
 // Your endpoint will have the form: 
 //   https://<your-custom-subdomain>.cognitiveservices.azure.com/bingcustomsearch/v7.0
 var subscriptionKey = process.env['BING_CUSTOM_SEARCH_SUBSCRIPTION_KEY'];
-var endpoint = process.env['BING_CUSTOM_SEARCH_ENDPOINT'];
+var endpoint = "https://api.cognitive.microsoft.com/bingcustomsearch"
 var customConfigId = 'YOUR-CUSTOM-CONFIG-ID'; //you can also use "1"
-var searchTerm = 'microsoft';
+var searchTerm = 'Microsoft';
 // </vars>
 // <requestOptions>
 var options = {
